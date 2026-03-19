@@ -74,6 +74,21 @@ Add to your Cursor MCP config:
 }
 ```
 
+**Cline** (VS Code) — add to `cline_mcp_settings.json`:
+
+```json
+{
+  "mcpServers": {
+    "civic": {
+      "url": "https://app.civic.com/hub/mcp",
+      "headers": {
+        "Authorization": "Bearer YOUR_CIVIC_TOKEN"
+      }
+    }
+  }
+}
+```
+
 **Windsurf** — native Streamable HTTP, no bridge required:
 
 Add to `~/.codeium/windsurf/mcp_config.json`:
