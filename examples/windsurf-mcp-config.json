@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "civic": {
+      "serverUrl": "https://app.civic.com/hub/mcp"
+    }
+  }
+}

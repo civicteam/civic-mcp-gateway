@@ -1,0 +1,17 @@
+startCommand:
+  type: http
+  url: https://app.civic.com/hub/mcp
+
+configSchema:
+  type: object
+  required:
+    - civicToken
+  properties:
+    civicToken:
+      type: string
+      title: "Civic Token"
+      description: "Bearer token generated at app.civic.com during onboarding"
+    civicProfile:
+      type: string
+      title: "Profile (optional)"
+      description: "Toolkit profile slug to scope the gateway to a specific configuration"

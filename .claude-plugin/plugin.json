@@ -1,0 +1,7 @@
+{
+  "name": "civic-mcp-gateway",
+  "description": "Connect Claude Code to Civic's MCP Gateway for agent identity, scoped permissions, audit trails, and revocable access control.",
+  "author": {
+    "name": "Civic"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "_comment": "Run: claude mcp add --transport http civic https://app.civic.com/hub/mcp",
+  "mcpServers": {
+    "civic": {
+      "type": "http",
+      "url": "https://app.civic.com/hub/mcp"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.civic/mcp-gateway",
+  "description": "Identity, authorization, audit trails, and revocable permissions for AI agents accessing MCP tools.",
+  "repository": {
+    "url": "https://github.com/civicteam/civic-mcp-gateway",
+    "source": "github"
+  },
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://app.civic.com/hub/mcp",
+      "environmentVariables": [
+        {
+          "name": "CIVIC_TOKEN",
+          "description": "Bearer token generated at app.civic.com during onboarding",
+          "isRequired": true,
+          "isSecret": true,
+          "format": "string"
+        },
+        {
+          "name": "CIVIC_PROFILE",
+          "description": "Optional toolkit profile slug — appended as ?profile=value to scope the gateway to a specific configuration",
+          "isRequired": false,
+          "isSecret": false,
+          "format": "string"
+        }
+      ]
+    }
+  ]
+}
