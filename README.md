@@ -109,6 +109,14 @@ curl -X POST https://app.civic.com/hub/mcp \
 
 ---
 
+## Example use cases
+
+| Use case | What Civic adds |
+|---|---|
+| [Gmail guardrails & audit](examples/use-cases/gmail-guardrails.md) | Block outbound sends with secrets, redact PII from email content, log every send |
+| [Google Calendar guardrails & audit](examples/use-cases/google-calendar-guardrails.md) | Prevent event deletion, restrict to business hours, block external attendees |
+| [PostgreSQL guardrails & audit](examples/use-cases/postgresql-guardrails.md) | Block destructive queries, enforce read-only access, redact sensitive columns |
+
 ## Documentation
 
 Full documentation at **[docs.civic.com](https://docs.civic.com/civic/quickstart)**
