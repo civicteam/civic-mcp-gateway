@@ -1,6 +1,6 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-  "name": "com.civic/mcp-gateway",
+  "name": "io.github.titus-civic/mcp-gateway",
   "description": "Identity, authorization, audit trails, and revocable permissions for AI agents accessing MCP tools.",
   "repository": {
     "url": "https://github.com/civicteam/civic-mcp-gateway",
