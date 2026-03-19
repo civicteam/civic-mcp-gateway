@@ -1,6 +1,6 @@
 # Civic MCP Gateway
 
-The Civic MCP Gateway gives AI agents a verified identity, scoped permissions, audit trails, and revocable access when calling MCP tools.
+Connecting AI Agents to tools and data via the Civic MCP Gateway gives builders access to guardrails, scoped permissions, audit trails, and revocable access when calling MCP tools. Civic separates the permission layer from the AI agent so they can't get around restrictions.
 
 This repository contains integration metadata, configuration files, and client examples. The gateway itself runs at **[app.civic.com](https://app.civic.com)**.
 
