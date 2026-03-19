@@ -124,6 +124,13 @@ curl -X POST https://app.civic.com/hub/mcp \
 
 ---
 
+## Install from a registry
+
+| Registry | Link |
+|---|---|
+| Smithery | [smithery.ai/servers/@civic/civic-mcp-gateway](https://smithery.ai/servers/@civic/civic-mcp-gateway) |
+| ClawHub | [clawhub.ai/civictechuser/openclaw-civic-skill](https://clawhub.ai/civictechuser/openclaw-civic-skill) |
+
 ## Example use cases
 
 | Use case | What Civic adds |
